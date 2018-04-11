@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<head>
+		<ReqsysId></ReqsysId>
+		<RspsysId></RspsysId>
+		<ServiceNo></ServiceNo>
+		<SceneNo></SceneNo>
+		<TradeCode></TradeCode>
+		<ServiceVer></ServiceVer>
+		<SceneVer></SceneVer>
+    <GloSeqNo></GloSeqNo>
+		<GlobaTraceNo></GlobaTraceNo>
+		<ChannelCode></ChannelCode>
+		<OrgNum></OrgNum>
+		<TelrNum></TelrNum>
+		<ZoneNo></ZoneNo>
+		<MyBank></MyBank>
+		<AuthOrgNum></AuthOrgNum>
+		<AuthTelrNum></AuthTelrNum>
+		<TermiId></TermiId>
+		<ReqDate></ReqDate>
+		<Reqtime></Reqtime>
+		<ReqSerno></ReqSerno>
+		<RspSeq></RspSeq>
+		<RspDate></RspDate>
+		<RspTime></RspTime>
+		<ErrorTyp></ErrorTyp>
+		<ErrorCode></ErrorCode>
+		<ErrorMsg></ErrorMsg>
+		<Mac></Mac>
+	</head>
+	<body>
+	</body>
+</root>

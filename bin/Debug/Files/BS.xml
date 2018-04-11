@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<head>
+		<ReqsysId>NFTS</ReqsysId>
+		<RspsysId>SEAI</RspsysId>
+		<ServiceNo>P0210001</ServiceNo>
+		<SceneNo>01</SceneNo>
+		<TradeCode>comitem</TradeCode>
+		<ServiceVer>1.0.0</ServiceVer>
+		<SceneVer>01</SceneVer>
+    <GloSeqNo>GS172017073100000000001</GloSeqNo>
+		<GlobaTraceNo>GS17201707310000000000101</GlobaTraceNo>
+		<ChannelCode>ZZEN</ChannelCode>
+		<OrgNum>0000101</OrgNum>
+		<TelrNum>00129</TelrNum>
+		<ZoneNo>12345678</ZoneNo>
+		<MyBank>EXNAXTT</MyBank>
+		<AuthOrgNum>0000101</AuthOrgNum>
+		<AuthTelrNum>01605754</AuthTelrNum>
+		<TermiId>T78789012</TermiId>
+		<ReqDate>20170804</ReqDate>
+		<Reqtime>182910</Reqtime>
+		<ReqSerno>0001036261</ReqSerno>
+		<RspSeq>0001040691</RspSeq>
+		<RspDate>20170804</RspDate>
+		<RspTime>183001</RspTime>
+		<ErrorTyp>E</ErrorTyp>
+		<ErrorCode> AFA0100051</ErrorCode>
+		<ErrorMsg>消费关系未注册</ErrorMsg>
+		<Mac>12355FA233</Mac>
+	</head>
+	<body>
+	</body>
+</root>

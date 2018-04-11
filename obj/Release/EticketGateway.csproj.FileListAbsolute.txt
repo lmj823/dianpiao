@@ -1,0 +1,2 @@
+E:\工作(手付通)\网银\兴业\电票\code\bin\Release\EticketGateway.exe.config
+E:\工作(手付通)\网银\宝生\电票\code\bin\Release\EticketGateway.exe.config

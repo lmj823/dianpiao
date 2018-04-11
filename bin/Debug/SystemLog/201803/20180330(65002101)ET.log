@@ -1,0 +1,170 @@
+﻿09:19:47 发送核心报文(ET0106)：    00001161<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0730001</ServiceNo><SceneNo>17</SceneNo><TradeCode>WYPJ30600107</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000001</GloSeqNo><GlobaTraceNo>Z012018033000000000000103</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>091947</Reqtime><ReqSerno>0000000000000001</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><transNo>200101</transNo><remitter></remitter><payee></payee><draweeBankName></draweeBankName><billNo></billNo><maxAcptDt>20180104</maxAcptDt><minAcptDt>20180104</minAcptDt><maxDueDt></maxDueDt><minDueDt></minDueDt><maxBillMoney>4000</maxBillMoney><minBillMoney>4000</minBillMoney><reserve1></reserve1><pageSize>10</pageSize><currentPage>1</currentPage></body></root>
+09:19:49 接收核心报文(ET0106)：    <?xml version="1.0" encoding="GBK"?>
+<root>
+    <head>
+        <ReqsysId>Z01</ReqsysId>
+        <RspsysId>S16</RspsysId>
+        <ServiceNo>P0730001</ServiceNo>
+        <SceneNo>17</SceneNo>
+        <TradeCode>WYPJ30600107</TradeCode>
+        <ServiceVer>1.0.0</ServiceVer>
+        <SceneVer>01</SceneVer>
+        <GloSeqNo>Z0120180330000000000001</GloSeqNo>
+        <GlobaTraceNo>Z012018033000000000000103</GlobaTraceNo>
+        <ChannelCode>NET</ChannelCode>
+        <OrgNum></OrgNum>
+        <TelrNum></TelrNum>
+        <ZoneNo></ZoneNo>
+        <MyBank>001</MyBank>
+        <AuthOrgNum></AuthOrgNum>
+        <AuthTelrNum></AuthTelrNum>
+        <TermiId></TermiId>
+        <ReqDate>20180330</ReqDate>
+        <Reqtime>091947</Reqtime>
+        <ReqSerno>0000000000000001</ReqSerno>
+        <RspSeq>091845698</RspSeq>
+        <RspDate>20180330</RspDate>
+        <RspTime>091947</RspTime>
+        <ErrorTyp>N</ErrorTyp>
+        <ErrorCode>000000</ErrorCode>
+        <ErrorMsg>交易成功</ErrorMsg>
+        <Mac></Mac>
+    </head>
+    <body>
+        <error_code>00000000</error_code>
+        <error_text></error_text>
+        <totalRows>0</totalRows>
+        <totalPages>0</totalPages>
+        <list_count>0</list_count>
+        <listEntity></listEntity>
+    </body>
+</root>
+09:22:52 发送核心报文(ET0111)：    00000881<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000001</GloSeqNo><GlobaTraceNo>Z012018033000000000000105</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>092252</Reqtime><ReqSerno>0000000000000001</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:22:52 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000001</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>092252</Reqtime><ReqSerno>0000000000000001</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:28:27 发送核心报文(ET0111)：    00000881<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><GlobaTraceNo>Z012018033000000000000203</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>092825</Reqtime><ReqSerno>0000000000000003</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:28:27 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>092825</Reqtime><ReqSerno>0000000000000003</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:29:13 发送核心报文(ET0111)：    00000881<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000004</GloSeqNo><GlobaTraceNo>Z012018033000000000000405</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>092902</Reqtime><ReqSerno>0000000000000005</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:29:13 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000004</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>092902</Reqtime><ReqSerno>0000000000000005</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:32:50 发送核心报文(ET0111)：    00000878<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><GlobaTraceNo>Z012018033000000000000203</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093250</Reqtime><ReqSerno>0000000000002</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:32:51 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093250</Reqtime><ReqSerno>0000000000002</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:33:18 发送核心报文(ET0111)：    00000878<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000003</GloSeqNo><GlobaTraceNo>Z012018033000000000000305</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093306</Reqtime><ReqSerno>0000000000003</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:33:18 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000003</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093306</Reqtime><ReqSerno>0000000000003</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:33:32 发送核心报文(ET0111)：    00000878<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000004</GloSeqNo><GlobaTraceNo>Z012018033000000000000407</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093327</Reqtime><ReqSerno>0000000000004</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:33:32 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000004</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093327</Reqtime><ReqSerno>0000000000004</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:37:49 发送核心报文(ET0111)：    00000881<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode>WYPJ30600006</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><GlobaTraceNo>Z012018033000000000000203</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093749</Reqtime><ReqSerno>0000000000000002</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13696682</billId><signature>啊啊集团</signature><reserve1></reserve1></body></root>
+09:37:49 接收核心报文(ET0111)：    <?xml version='1.0' encoding='UTF-8'?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720002</ServiceNo><SceneNo>03</SceneNo><TradeCode></TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>093749</Reqtime><ReqSerno>0000000000000002</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp>R</ErrorTyp><ErrorCode>AESBGW3102</ErrorCode><ErrorMsg>ESB C端内部错误</ErrorMsg><Mac></Mac></head></root>
+09:43:15 发送核心报文(ET0107)：    00000910<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720001</ServiceNo><SceneNo>04</SceneNo><TradeCode>WYPJ30600002</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000003</GloSeqNo><GlobaTraceNo>Z012018033000000000000305</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>094315</Reqtime><ReqSerno>0000000000000003</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13693960</billId><flag>2</flag><signature>1</signature><source>1</source><reserve1></reserve1></body></root>
+09:43:16 接收核心报文(ET0107)：    <?xml version="1.0" encoding="GBK"?>
+<root>
+    <head>
+        <ReqsysId>Z01</ReqsysId>
+        <RspsysId>S16</RspsysId>
+        <ServiceNo>P0720001</ServiceNo>
+        <SceneNo>04</SceneNo>
+        <TradeCode>WYPJ30600002</TradeCode>
+        <ServiceVer>1.0.0</ServiceVer>
+        <SceneVer>01</SceneVer>
+        <GloSeqNo>Z0120180330000000000003</GloSeqNo>
+        <GlobaTraceNo>Z012018033000000000000305</GlobaTraceNo>
+        <ChannelCode>NET</ChannelCode>
+        <OrgNum></OrgNum>
+        <TelrNum></TelrNum>
+        <ZoneNo></ZoneNo>
+        <MyBank>001</MyBank>
+        <AuthOrgNum></AuthOrgNum>
+        <AuthTelrNum></AuthTelrNum>
+        <TermiId></TermiId>
+        <ReqDate>20180330</ReqDate>
+        <Reqtime>094315</Reqtime>
+        <ReqSerno>0000000000000003</ReqSerno>
+        <RspSeq>094212728</RspSeq>
+        <RspDate>20180330</RspDate>
+        <RspTime>094315</RspTime>
+        <ErrorTyp>F</ErrorTyp>
+        <ErrorCode>TC200001</ErrorCode>
+        <ErrorMsg>交易前置状态不正确!当前状态为：TE200401_02</ErrorMsg>
+        <Mac></Mac>
+    </head>
+    <body>
+        <error_code>TC200001</error_code>
+        <error_text>交易前置状态不正确!当前状态为：TE200401_02</error_text>
+    </body>
+</root>
+09:54:10 发送核心报文(ET0107)：    00000910<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720001</ServiceNo><SceneNo>04</SceneNo><TradeCode>WYPJ30600002</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000002</GloSeqNo><GlobaTraceNo>Z012018033000000000000203</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>095410</Reqtime><ReqSerno>0000000000000002</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13693960</billId><flag>2</flag><signature>1</signature><source>1</source><reserve1></reserve1></body></root>
+09:54:10 接收核心报文(ET0107)：    <?xml version="1.0" encoding="GBK"?>
+<root>
+    <head>
+        <ReqsysId>Z01</ReqsysId>
+        <RspsysId>S16</RspsysId>
+        <ServiceNo>P0720001</ServiceNo>
+        <SceneNo>04</SceneNo>
+        <TradeCode>WYPJ30600002</TradeCode>
+        <ServiceVer>1.0.0</ServiceVer>
+        <SceneVer>01</SceneVer>
+        <GloSeqNo>Z0120180330000000000002</GloSeqNo>
+        <GlobaTraceNo>Z012018033000000000000203</GlobaTraceNo>
+        <ChannelCode>NET</ChannelCode>
+        <OrgNum></OrgNum>
+        <TelrNum></TelrNum>
+        <ZoneNo></ZoneNo>
+        <MyBank>001</MyBank>
+        <AuthOrgNum></AuthOrgNum>
+        <AuthTelrNum></AuthTelrNum>
+        <TermiId></TermiId>
+        <ReqDate>20180330</ReqDate>
+        <Reqtime>095410</Reqtime>
+        <ReqSerno>0000000000000002</ReqSerno>
+        <RspSeq>095307281</RspSeq>
+        <RspDate>20180330</RspDate>
+        <RspTime>095410</RspTime>
+        <ErrorTyp>F</ErrorTyp>
+        <ErrorCode>TC200001</ErrorCode>
+        <ErrorMsg>交易前置状态不正确!当前状态为：TE200401_02</ErrorMsg>
+        <Mac></Mac>
+    </head>
+    <body>
+        <error_code>TC200001</error_code>
+        <error_text>交易前置状态不正确!当前状态为：TE200401_02</error_text>
+    </body>
+</root>
+09:55:34 连接服务器失败,原因(ET0107): 套接字操作尝试一个无法连接的主机。 10.141.129.23:2151
+09:55:45 连接服务器失败,原因(ET0107): 套接字操作尝试一个无法连接的主机。 10.141.129.23:2151
+09:56:00 连接服务器失败,原因(ET0107): 套接字操作尝试一个无法连接的主机。 10.141.129.23:2151
+09:56:18 连接服务器失败,原因(ET0107): 套接字操作尝试一个无法连接的主机。 10.141.129.23:2151
+09:57:44 发送核心报文(ET0107)：    00000910<?xml version="1.0" encoding="utf-8"?><root><head><ReqsysId>Z01</ReqsysId><RspsysId>S16</RspsysId><ServiceNo>P0720001</ServiceNo><SceneNo>04</SceneNo><TradeCode>WYPJ30600002</TradeCode><ServiceVer>1.0.0</ServiceVer><SceneVer>01</SceneVer><GloSeqNo>Z0120180330000000000007</GloSeqNo><GlobaTraceNo>Z012018033000000000000713</GlobaTraceNo><ChannelCode>NET</ChannelCode><OrgNum></OrgNum><TelrNum></TelrNum><ZoneNo></ZoneNo><MyBank>001</MyBank><AuthOrgNum></AuthOrgNum><AuthTelrNum></AuthTelrNum><TermiId></TermiId><ReqDate>20180330</ReqDate><Reqtime>095744</Reqtime><ReqSerno>0000000000000007</ReqSerno><RspSeq></RspSeq><RspDate></RspDate><RspTime></RspTime><ErrorTyp></ErrorTyp><ErrorCode></ErrorCode><ErrorMsg></ErrorMsg><Mac></Mac></head><body><applicantAcctNo>9901290000000160</applicantAcctNo><billId>13693960</billId><flag>2</flag><signature>1</signature><source>1</source><reserve1></reserve1></body></root>
+09:57:45 接收核心报文(ET0107)：    <?xml version="1.0" encoding="GBK"?>
+<root>
+    <head>
+        <ReqsysId>Z01</ReqsysId>
+        <RspsysId>S16</RspsysId>
+        <ServiceNo>P0720001</ServiceNo>
+        <SceneNo>04</SceneNo>
+        <TradeCode>WYPJ30600002</TradeCode>
+        <ServiceVer>1.0.0</ServiceVer>
+        <SceneVer>01</SceneVer>
+        <GloSeqNo>Z0120180330000000000007</GloSeqNo>
+        <GlobaTraceNo>Z012018033000000000000713</GlobaTraceNo>
+        <ChannelCode>NET</ChannelCode>
+        <OrgNum></OrgNum>
+        <TelrNum></TelrNum>
+        <ZoneNo></ZoneNo>
+        <MyBank>001</MyBank>
+        <AuthOrgNum></AuthOrgNum>
+        <AuthTelrNum></AuthTelrNum>
+        <TermiId></TermiId>
+        <ReqDate>20180330</ReqDate>
+        <Reqtime>095744</Reqtime>
+        <ReqSerno>0000000000000007</ReqSerno>
+        <RspSeq>095641703</RspSeq>
+        <RspDate>20180330</RspDate>
+        <RspTime>095744</RspTime>
+        <ErrorTyp>F</ErrorTyp>
+        <ErrorCode>TC200001</ErrorCode>
+        <ErrorMsg>交易前置状态不正确!当前状态为：TE200401_02</ErrorMsg>
+        <Mac></Mac>
+    </head>
+    <body>
+        <error_code>TC200001</error_code>
+        <error_text>交易前置状态不正确!当前状态为：TE200401_02</error_text>
+    </body>
+</root>
